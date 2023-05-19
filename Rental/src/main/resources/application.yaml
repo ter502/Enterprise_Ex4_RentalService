@@ -1,0 +1,12 @@
+spring: 
+  datasource: 
+    url: "jdbc:mysql://localhost:3306/entp"
+    username: root
+    password: root
+  jpa: 
+    show_sql: true
+    hibernate: 
+      ddl-auto: update
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
